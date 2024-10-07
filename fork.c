@@ -14,15 +14,17 @@ void pattern1(int num) {
             exit(1);
         } else if (pid == 0) {
             printf("   Process %d (%d) beginning\n", i, getpid());
-            printf("   Process %d (%d) creating Process %d\n\n", i, getpid(), i+1);
             exit(0); 
+        } else {
+            wait(NULL);
+            printf("   Process %d (%d) creating Process %d\n\n", i, getpid(), i+1);
         }
     }
     
     for (int i = 0; i < num; i++) {
         wait(NULL);
+        printf("   Process %d exiting\n", i);
     }
-    printf("   Process %d exiting\n", num-1);
 }
 
 void pattern2(int num) {
@@ -37,9 +39,9 @@ void pattern2(int num) {
             printf("   Process %d (%d) creating Process %d\n", i, getpid(), i+1); 
         } else {
             wait(NULL);
+            printf("   Process %d exiting\n\n", i);
             exit(0);
         }
-        printf("   Process %d exiting\n\n", i);
     }
 }
 

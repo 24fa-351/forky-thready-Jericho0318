@@ -1,59 +1,84 @@
 Pattern 1:
-   Process 0 (8385) beginning
-   Process 0 (8385) creating Process 1
+   Process 0 (4426) beginning
+   Process 0 (4425) creating Process 1
 
-   Process 1 (8386) beginning
-   Process 1 (8386) creating Process 2
+   Process 1 (4427) beginning
+   Process 1 (4425) creating Process 2
 
-   Process 2 (8387) beginning
-   Process 2 (8387) creating Process 3
+   Process 2 (4440) beginning
+   Process 2 (4425) creating Process 3
 
-   Process 3 (8388) beginning
-   Process 3 (8388) creating Process 4
+   Process 3 (4441) beginning
+   Process 3 (4425) creating Process 4
 
-   Process 4 (8389) beginning
-   Process 4 (8389) creating Process 5
+   Process 4 (4450) beginning
+   Process 4 (4425) creating Process 5
 
-   Process 5 (8390) beginning
-   Process 5 (8390) creating Process 6
+   Process 5 (4451) beginning
+   Process 5 (4425) creating Process 6
 
-   Process 6 (8391) beginning
-   Process 6 (8391) creating Process 7
+   Process 6 (4452) beginning
+   Process 6 (4425) creating Process 7
 
-   Process 7 (8394) beginning
-   Process 7 (8394) creating Process 8
+   Process 7 (4453) beginning
+   Process 7 (4425) creating Process 8
 
+   Process 8 (4454) beginning
+   Process 8 (4425) creating Process 9
+
+   Process 9 (4455) beginning
+   Process 9 (4425) creating Process 10
+
+   Process 0 exiting
+   Process 1 exiting
+   Process 2 exiting
+   Process 3 exiting
+   Process 4 exiting
+   Process 5 exiting
+   Process 6 exiting
    Process 7 exiting
+   Process 8 exiting
+   Process 9 exiting
 
 Pattern 2:
-   Process 0 (8440) beginning
-   Process 0 (8440) creating Process 1
-   Process 0 exiting
+   Process 0 (4470) beginning
+   Process 0 (4470) creating Process 1
+   Process 1 (4471) beginning
+   Process 1 (4471) creating Process 2
+   Process 2 (4472) beginning
+   Process 2 (4472) creating Process 3
+   Process 3 (4477) beginning
+   Process 3 (4477) creating Process 4
+   Process 4 (4479) beginning
+   Process 4 (4479) creating Process 5
+   Process 5 (4480) beginning
+   Process 5 (4480) creating Process 6
+   Process 6 (4481) beginning
+   Process 6 (4481) creating Process 7
+   Process 7 (4482) beginning
+   Process 7 (4482) creating Process 8
+   Process 8 (4486) beginning
+   Process 8 (4486) creating Process 9
+   Process 9 (4487) beginning
+   Process 9 (4487) creating Process 10
+   Process 9 exiting
 
-   Process 1 (8441) beginning
-   Process 1 (8441) creating Process 2
-   Process 1 exiting
+   Process 8 exiting
 
-   Process 2 (8442) beginning
-   Process 2 (8442) creating Process 3
-   Process 2 exiting
+   Process 7 exiting
 
-   Process 3 (8446) beginning
-   Process 3 (8446) creating Process 4
-   Process 3 exiting
-
-   Process 4 (8451) beginning
-   Process 4 (8451) creating Process 5
-   Process 4 exiting
-
-   Process 5 (8454) beginning
-   Process 5 (8454) creating Process 6
-   Process 5 exiting
-
-   Process 6 (8455) beginning
-   Process 6 (8455) creating Process 7
    Process 6 exiting
 
-   Process 7 (8456) beginning
-   Process 7 (8456) creating Process 8
-   Process 7 exiting
+   Process 5 exiting
+
+   Process 4 exiting
+
+   Process 3 exiting
+
+   Process 2 exiting
+
+   Process 1 exiting
+
+   Process 0 exiting
+
+
