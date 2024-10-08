@@ -40,6 +40,90 @@ Pattern 1:
    Process 8 exiting
    Process 9 exiting
 
+Pattern 1:
+   Process 0 (4257) beginning
+   Process 0 (4256) creating Process 1
+
+   Process 1 (4258) beginning
+   Process 1 (4256) creating Process 2
+
+   Process 2 (4259) beginning
+   Process 2 (4256) creating Process 3
+
+   Process 3 (4260) beginning
+   Process 3 (4256) creating Process 4
+
+   Process 4 (4261) beginning
+   Process 4 (4256) creating Process 5
+
+   Process 5 (4262) beginning
+   Process 5 (4256) creating Process 6
+
+   Process 6 (4263) beginning
+   Process 6 (4256) creating Process 7
+
+   Process 7 (4264) beginning
+   Process 7 (4256) creating Process 8
+
+   Process 8 (4265) beginning
+   Process 8 (4256) creating Process 9
+
+   Process 9 (4266) beginning
+   Process 9 (4256) creating Process 10
+
+   Process 0 exiting
+   Process 1 exiting
+   Process 2 exiting
+   Process 3 exiting
+   Process 4 exiting
+   Process 5 exiting
+   Process 6 exiting
+   Process 7 exiting
+   Process 8 exiting
+   Process 9 exiting
+
+Pattern 1:
+   Process 0 (4276) beginning
+   Process 0 (4275) creating Process 1
+
+   Process 1 (4277) beginning
+   Process 1 (4275) creating Process 2
+
+   Process 2 (4278) beginning
+   Process 2 (4275) creating Process 3
+
+   Process 3 (4279) beginning
+   Process 3 (4275) creating Process 4
+
+   Process 4 (4308) beginning
+   Process 4 (4275) creating Process 5
+
+   Process 5 (4313) beginning
+   Process 5 (4275) creating Process 6
+
+   Process 6 (4314) beginning
+   Process 6 (4275) creating Process 7
+
+   Process 7 (4315) beginning
+   Process 7 (4275) creating Process 8
+
+   Process 8 (4316) beginning
+   Process 8 (4275) creating Process 9
+
+   Process 9 (4317) beginning
+   Process 9 (4275) creating Process 10
+
+   Process 0 exiting
+   Process 1 exiting
+   Process 2 exiting
+   Process 3 exiting
+   Process 4 exiting
+   Process 5 exiting
+   Process 6 exiting
+   Process 7 exiting
+   Process 8 exiting
+   Process 9 exiting
+
 Pattern 2:
    Process 0 (4470) beginning
    Process 0 (4470) creating Process 1
@@ -81,4 +165,85 @@ Pattern 2:
 
    Process 0 exiting
 
+Pattern 2:
+   Process 0 (4458) beginning
+   Process 0 (4458) creating Process 1
+   Process 1 (4459) beginning
+   Process 1 (4459) creating Process 2
+   Process 2 (4460) beginning
+   Process 2 (4460) creating Process 3
+   Process 3 (4461) beginning
+   Process 3 (4461) creating Process 4
+   Process 4 (4462) beginning
+   Process 4 (4462) creating Process 5
+   Process 5 (4463) beginning
+   Process 5 (4463) creating Process 6
+   Process 6 (4464) beginning
+   Process 6 (4464) creating Process 7
+   Process 7 (4465) beginning
+   Process 7 (4465) creating Process 8
+   Process 8 (4466) beginning
+   Process 8 (4466) creating Process 9
+   Process 9 (4467) beginning
+   Process 9 (4467) creating Process 10
+   Process 9 exiting
+
+   Process 8 exiting
+
+   Process 7 exiting
+
+   Process 6 exiting
+
+   Process 5 exiting
+
+   Process 4 exiting
+
+   Process 3 exiting
+
+   Process 2 exiting
+
+   Process 1 exiting
+
+   Process 0 exiting
+
+Pattern 2:
+   Process 0 (4469) beginning
+   Process 0 (4469) creating Process 1
+   Process 1 (4475) beginning
+   Process 1 (4475) creating Process 2
+   Process 2 (4476) beginning
+   Process 2 (4476) creating Process 3
+   Process 3 (4477) beginning
+   Process 3 (4477) creating Process 4
+   Process 4 (4478) beginning
+   Process 4 (4478) creating Process 5
+   Process 5 (4481) beginning
+   Process 5 (4481) creating Process 6
+   Process 6 (4482) beginning
+   Process 6 (4482) creating Process 7
+   Process 7 (4483) beginning
+   Process 7 (4483) creating Process 8
+   Process 8 (4484) beginning
+   Process 8 (4484) creating Process 9
+   Process 9 (4487) beginning
+   Process 9 (4487) creating Process 10
+   Process 9 exiting
+
+   Process 8 exiting
+
+   Process 7 exiting
+
+   Process 6 exiting
+
+   Process 5 exiting
+
+   Process 4 exiting
+
+   Process 3 exiting
+
+   Process 2 exiting
+
+   Process 1 exiting
+
+   Process 0 exiting
 
