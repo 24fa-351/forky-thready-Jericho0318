@@ -1,35 +1,57 @@
 Pattern 1:
-   Process 0 (4426) beginning
-   Process 0 (4425) creating Process 1
+   Parent: created child 0 (3712)
 
-   Process 1 (4427) beginning
-   Process 1 (4425) creating Process 2
+   Process 0 (3712) beginning
+   Parent: created child 1 (3714)
 
-   Process 2 (4440) beginning
-   Process 2 (4425) creating Process 3
+   Process 1 (3714) beginning
+   Parent: created child 2 (3715)
 
-   Process 3 (4441) beginning
-   Process 3 (4425) creating Process 4
+   Process 2 (3715) beginning
+   Parent: created child 3 (3716)
 
-   Process 4 (4450) beginning
-   Process 4 (4425) creating Process 5
-
-   Process 5 (4451) beginning
-   Process 5 (4425) creating Process 6
-
-   Process 6 (4452) beginning
-   Process 6 (4425) creating Process 7
-
-   Process 7 (4453) beginning
-   Process 7 (4425) creating Process 8
-
-   Process 8 (4454) beginning
-   Process 8 (4425) creating Process 9
-
-   Process 9 (4455) beginning
-   Process 9 (4425) creating Process 10
-
+   Process 3 (3716) beginning
    Process 0 exiting
+   Parent: created child 4 (3717)
+
+   Process 4 (3717) beginning
+   Process 1 exiting
+   Process 2 exiting
+   Process 3 exiting
+   Process 4 exiting
+
+Pattern 1:
+   Parent: created child 0 (3728)
+
+   Process 0 (3728) beginning
+   Parent: created child 1 (3729)
+
+   Process 1 (3729) beginning
+   Parent: created child 2 (3730)
+
+   Process 2 (3730) beginning
+   Parent: created child 3 (3731)
+
+   Process 3 (3731) beginning
+   Parent: created child 4 (3732)
+
+   Process 4 (3732) beginning
+   Parent: created child 5 (3733)
+
+   Process 5 (3733) beginning
+   Parent: created child 6 (3734)
+
+   Process 6 (3734) beginning
+   Parent: created child 7 (3735)
+
+   Process 7 (3735) beginning
+   Parent: created child 8 (3736)
+
+   Process 8 (3736) beginning
+   Process 0 exiting
+   Parent: created child 9 (3737)
+
+   Process 9 (3737) beginning
    Process 1 exiting
    Process 2 exiting
    Process 3 exiting
@@ -41,39 +63,54 @@ Pattern 1:
    Process 9 exiting
 
 Pattern 1:
-   Process 0 (4257) beginning
-   Process 0 (4256) creating Process 1
+   Parent: created child 0 (3739)
 
-   Process 1 (4258) beginning
-   Process 1 (4256) creating Process 2
+   Process 0 (3739) beginning
+   Parent: created child 1 (3740)
 
-   Process 2 (4259) beginning
-   Process 2 (4256) creating Process 3
+   Process 1 (3740) beginning
+   Parent: created child 2 (3741)
 
-   Process 3 (4260) beginning
-   Process 3 (4256) creating Process 4
+   Process 2 (3741) beginning
+   Parent: created child 3 (3742)
 
-   Process 4 (4261) beginning
-   Process 4 (4256) creating Process 5
+   Process 3 (3742) beginning
+   Parent: created child 4 (3743)
 
-   Process 5 (4262) beginning
-   Process 5 (4256) creating Process 6
+   Process 4 (3743) beginning
+   Parent: created child 5 (3744)
 
-   Process 6 (4263) beginning
-   Process 6 (4256) creating Process 7
+   Process 5 (3744) beginning
+   Parent: created child 6 (3746)
 
-   Process 7 (4264) beginning
-   Process 7 (4256) creating Process 8
+   Process 6 (3746) beginning
+   Parent: created child 7 (3747)
 
-   Process 8 (4265) beginning
-   Process 8 (4256) creating Process 9
+   Process 7 (3747) beginning
+   Parent: created child 8 (3748)
 
-   Process 9 (4266) beginning
-   Process 9 (4256) creating Process 10
+   Process 8 (3748) beginning
+   Parent: created child 9 (3749)
 
+   Process 9 (3749) beginning
+   Parent: created child 10 (3750)
+
+   Process 10 (3750) beginning
+   Parent: created child 11 (3751)
+
+   Process 11 (3751) beginning
+   Parent: created child 12 (3752)
+
+   Process 12 (3752) beginning
+   Parent: created child 13 (3753)
+
+   Process 13 (3753) beginning
    Process 0 exiting
    Process 1 exiting
+   Parent: created child 14 (3754)
+
    Process 2 exiting
+   Process 14 (3754) beginning
    Process 3 exiting
    Process 4 exiting
    Process 5 exiting
@@ -81,169 +118,105 @@ Pattern 1:
    Process 7 exiting
    Process 8 exiting
    Process 9 exiting
-
-Pattern 1:
-   Process 0 (4276) beginning
-   Process 0 (4275) creating Process 1
-
-   Process 1 (4277) beginning
-   Process 1 (4275) creating Process 2
-
-   Process 2 (4278) beginning
-   Process 2 (4275) creating Process 3
-
-   Process 3 (4279) beginning
-   Process 3 (4275) creating Process 4
-
-   Process 4 (4308) beginning
-   Process 4 (4275) creating Process 5
-
-   Process 5 (4313) beginning
-   Process 5 (4275) creating Process 6
-
-   Process 6 (4314) beginning
-   Process 6 (4275) creating Process 7
-
-   Process 7 (4315) beginning
-   Process 7 (4275) creating Process 8
-
-   Process 8 (4316) beginning
-   Process 8 (4275) creating Process 9
-
-   Process 9 (4317) beginning
-   Process 9 (4275) creating Process 10
-
-   Process 0 exiting
-   Process 1 exiting
-   Process 2 exiting
-   Process 3 exiting
-   Process 4 exiting
-   Process 5 exiting
-   Process 6 exiting
-   Process 7 exiting
-   Process 8 exiting
-   Process 9 exiting
+   Process 10 exiting
+   Process 11 exiting
+   Process 12 exiting
+   Process 13 exiting
+   Process 14 exiting
 
 Pattern 2:
-   Process 0 (4470) beginning
-   Process 0 (4470) creating Process 1
-   Process 1 (4471) beginning
-   Process 1 (4471) creating Process 2
-   Process 2 (4472) beginning
-   Process 2 (4472) creating Process 3
-   Process 3 (4477) beginning
-   Process 3 (4477) creating Process 4
-   Process 4 (4479) beginning
-   Process 4 (4479) creating Process 5
-   Process 5 (4480) beginning
-   Process 5 (4480) creating Process 6
-   Process 6 (4481) beginning
-   Process 6 (4481) creating Process 7
-   Process 7 (4482) beginning
-   Process 7 (4482) creating Process 8
-   Process 8 (4486) beginning
-   Process 8 (4486) creating Process 9
-   Process 9 (4487) beginning
-   Process 9 (4487) creating Process 10
-   Process 9 exiting
+   Child 0 (3789) beginning
+   Child 1 (3790) beginning
+   Child 2 (3791) beginning
+   Child 3 (3792) beginning
+   Child 4 (3793) beginning
+   Child 4 exiting
 
-   Process 8 exiting
+   Child 3 exiting
 
-   Process 7 exiting
+   Child 2 exiting
 
-   Process 6 exiting
+   Child 1 exiting
 
-   Process 5 exiting
-
-   Process 4 exiting
-
-   Process 3 exiting
-
-   Process 2 exiting
-
-   Process 1 exiting
-
-   Process 0 exiting
+   Child 0 exiting
 
 Pattern 2:
-   Process 0 (4458) beginning
-   Process 0 (4458) creating Process 1
-   Process 1 (4459) beginning
-   Process 1 (4459) creating Process 2
-   Process 2 (4460) beginning
-   Process 2 (4460) creating Process 3
-   Process 3 (4461) beginning
-   Process 3 (4461) creating Process 4
-   Process 4 (4462) beginning
-   Process 4 (4462) creating Process 5
-   Process 5 (4463) beginning
-   Process 5 (4463) creating Process 6
-   Process 6 (4464) beginning
-   Process 6 (4464) creating Process 7
-   Process 7 (4465) beginning
-   Process 7 (4465) creating Process 8
-   Process 8 (4466) beginning
-   Process 8 (4466) creating Process 9
-   Process 9 (4467) beginning
-   Process 9 (4467) creating Process 10
-   Process 9 exiting
+   Child 0 (3921) beginning
+   Child 1 (3922) beginning
+   Child 2 (3927) beginning
+   Child 3 (3929) beginning
+   Child 4 (3930) beginning
+   Child 5 (3931) beginning
+   Child 6 (3933) beginning
+   Child 7 (3934) beginning
+   Child 8 (3935) beginning
+   Child 9 (3936) beginning
+   Child 9 exiting
 
-   Process 8 exiting
+   Child 8 exiting
 
-   Process 7 exiting
+   Child 7 exiting
 
-   Process 6 exiting
+   Child 6 exiting
 
-   Process 5 exiting
+   Child 5 exiting
 
-   Process 4 exiting
+   Child 4 exiting
 
-   Process 3 exiting
+   Child 3 exiting
 
-   Process 2 exiting
+   Child 2 exiting
 
-   Process 1 exiting
+   Child 1 exiting
 
-   Process 0 exiting
+   Child 0 exiting
 
 Pattern 2:
-   Process 0 (4469) beginning
-   Process 0 (4469) creating Process 1
-   Process 1 (4475) beginning
-   Process 1 (4475) creating Process 2
-   Process 2 (4476) beginning
-   Process 2 (4476) creating Process 3
-   Process 3 (4477) beginning
-   Process 3 (4477) creating Process 4
-   Process 4 (4478) beginning
-   Process 4 (4478) creating Process 5
-   Process 5 (4481) beginning
-   Process 5 (4481) creating Process 6
-   Process 6 (4482) beginning
-   Process 6 (4482) creating Process 7
-   Process 7 (4483) beginning
-   Process 7 (4483) creating Process 8
-   Process 8 (4484) beginning
-   Process 8 (4484) creating Process 9
-   Process 9 (4487) beginning
-   Process 9 (4487) creating Process 10
-   Process 9 exiting
+   Child 0 (3953) beginning
+   Child 1 (3954) beginning
+   Child 2 (3955) beginning
+   Child 3 (3956) beginning
+   Child 4 (3957) beginning
+   Child 5 (3958) beginning
+   Child 6 (3959) beginning
+   Child 7 (3960) beginning
+   Child 8 (3961) beginning
+   Child 9 (3962) beginning
+   Child 10 (3963) beginning
+   Child 11 (3964) beginning
+   Child 12 (3965) beginning
+   Child 13 (3966) beginning
+   Child 14 (3967) beginning
+   Child 14 exiting
 
-   Process 8 exiting
+   Child 13 exiting
 
-   Process 7 exiting
+   Child 12 exiting
 
-   Process 6 exiting
+   Child 11 exiting
 
-   Process 5 exiting
+   Child 10 exiting
 
-   Process 4 exiting
+   Child 9 exiting
 
-   Process 3 exiting
+   Child 8 exiting
 
-   Process 2 exiting
+   Child 7 exiting
 
-   Process 1 exiting
+   Child 6 exiting
 
-   Process 0 exiting
+   Child 5 exiting
+
+   Child 4 exiting
+
+   Child 3 exiting
+
+   Child 2 exiting
+
+   Child 1 exiting
+
+   Child 0 exiting
+
+
+
 

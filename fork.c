@@ -8,17 +8,16 @@ void pattern1(int num) {
     int status = 0;                 
     for (int i = 0; i < num; i++) {
         pid_t pid = fork();
-        sleep(rand() % 9);
+        sleep(1);
         if (pid < 0) {
             perror("Fork Failed!!");
             exit(1);
         } else if (pid == 0) {
+            printf("   Parent: created child %d (%d)\n\n", i, getpid());
+            wait(NULL);
             printf("   Process %d (%d) beginning\n", i, getpid());
             exit(0); 
-        } else {
-            wait(NULL);
-            printf("   Process %d (%d) creating Process %d\n\n", i, getpid(), i+1);
-        }
+        } 
     }
     
     for (int i = 0; i < num; i++) {
@@ -29,17 +28,16 @@ void pattern1(int num) {
 
 void pattern2(int num) {
     for (int i = 0; i < num; i++) {
-        sleep(rand() % 9);
         pid_t pid = fork();
         if (pid < 0) {
             perror("Fork Failed!!");
             exit(1);
         } else if (pid == 0) {
-            printf("   Process %d (%d) beginning\n", i, getpid());
-            printf("   Process %d (%d) creating Process %d\n", i, getpid(), i+1); 
+            printf("   Child %d (%d) beginning\n", i, getpid()); 
+            sleep(1);
         } else {
             wait(NULL);
-            printf("   Process %d exiting\n\n", i);
+            printf("   Child %d exiting\n\n", i);
             exit(0);
         }
     }
