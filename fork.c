@@ -8,7 +8,7 @@ void pattern1(int num) {
     int status = 0;                 
     for (int i = 0; i < num; i++) {
         pid_t pid = fork();
-        sleep(1);
+        sleep(rand() % 9);
         if (pid < 0) {
             perror("Fork Failed!!");
             exit(1);
@@ -34,7 +34,7 @@ void pattern2(int num) {
             exit(1);
         } else if (pid == 0) {
             printf("   Child %d (%d) beginning\n", i, getpid()); 
-            sleep(1);
+            sleep(rand() % 9);
         } else {
             wait(NULL);
             printf("   Child %d exiting\n\n", i);
