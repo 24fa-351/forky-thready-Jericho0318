@@ -1,0 +1,222 @@
+Pattern 1:
+   Parent: created child 0 (3712)
+
+   Process 0 (3712) beginning
+   Parent: created child 1 (3714)
+
+   Process 1 (3714) beginning
+   Parent: created child 2 (3715)
+
+   Process 2 (3715) beginning
+   Parent: created child 3 (3716)
+
+   Process 3 (3716) beginning
+   Process 0 exiting
+   Parent: created child 4 (3717)
+
+   Process 4 (3717) beginning
+   Process 1 exiting
+   Process 2 exiting
+   Process 3 exiting
+   Process 4 exiting
+
+Pattern 1:
+   Parent: created child 0 (3728)
+
+   Process 0 (3728) beginning
+   Parent: created child 1 (3729)
+
+   Process 1 (3729) beginning
+   Parent: created child 2 (3730)
+
+   Process 2 (3730) beginning
+   Parent: created child 3 (3731)
+
+   Process 3 (3731) beginning
+   Parent: created child 4 (3732)
+
+   Process 4 (3732) beginning
+   Parent: created child 5 (3733)
+
+   Process 5 (3733) beginning
+   Parent: created child 6 (3734)
+
+   Process 6 (3734) beginning
+   Parent: created child 7 (3735)
+
+   Process 7 (3735) beginning
+   Parent: created child 8 (3736)
+
+   Process 8 (3736) beginning
+   Process 0 exiting
+   Parent: created child 9 (3737)
+
+   Process 9 (3737) beginning
+   Process 1 exiting
+   Process 2 exiting
+   Process 3 exiting
+   Process 4 exiting
+   Process 5 exiting
+   Process 6 exiting
+   Process 7 exiting
+   Process 8 exiting
+   Process 9 exiting
+
+Pattern 1:
+   Parent: created child 0 (3739)
+
+   Process 0 (3739) beginning
+   Parent: created child 1 (3740)
+
+   Process 1 (3740) beginning
+   Parent: created child 2 (3741)
+
+   Process 2 (3741) beginning
+   Parent: created child 3 (3742)
+
+   Process 3 (3742) beginning
+   Parent: created child 4 (3743)
+
+   Process 4 (3743) beginning
+   Parent: created child 5 (3744)
+
+   Process 5 (3744) beginning
+   Parent: created child 6 (3746)
+
+   Process 6 (3746) beginning
+   Parent: created child 7 (3747)
+
+   Process 7 (3747) beginning
+   Parent: created child 8 (3748)
+
+   Process 8 (3748) beginning
+   Parent: created child 9 (3749)
+
+   Process 9 (3749) beginning
+   Parent: created child 10 (3750)
+
+   Process 10 (3750) beginning
+   Parent: created child 11 (3751)
+
+   Process 11 (3751) beginning
+   Parent: created child 12 (3752)
+
+   Process 12 (3752) beginning
+   Parent: created child 13 (3753)
+
+   Process 13 (3753) beginning
+   Process 0 exiting
+   Process 1 exiting
+   Parent: created child 14 (3754)
+
+   Process 2 exiting
+   Process 14 (3754) beginning
+   Process 3 exiting
+   Process 4 exiting
+   Process 5 exiting
+   Process 6 exiting
+   Process 7 exiting
+   Process 8 exiting
+   Process 9 exiting
+   Process 10 exiting
+   Process 11 exiting
+   Process 12 exiting
+   Process 13 exiting
+   Process 14 exiting
+
+Pattern 2:
+   Child 0 (3789) beginning
+   Child 1 (3790) beginning
+   Child 2 (3791) beginning
+   Child 3 (3792) beginning
+   Child 4 (3793) beginning
+   Child 4 exiting
+
+   Child 3 exiting
+
+   Child 2 exiting
+
+   Child 1 exiting
+
+   Child 0 exiting
+
+Pattern 2:
+   Child 0 (3921) beginning
+   Child 1 (3922) beginning
+   Child 2 (3927) beginning
+   Child 3 (3929) beginning
+   Child 4 (3930) beginning
+   Child 5 (3931) beginning
+   Child 6 (3933) beginning
+   Child 7 (3934) beginning
+   Child 8 (3935) beginning
+   Child 9 (3936) beginning
+   Child 9 exiting
+
+   Child 8 exiting
+
+   Child 7 exiting
+
+   Child 6 exiting
+
+   Child 5 exiting
+
+   Child 4 exiting
+
+   Child 3 exiting
+
+   Child 2 exiting
+
+   Child 1 exiting
+
+   Child 0 exiting
+
+Pattern 2:
+   Child 0 (3953) beginning
+   Child 1 (3954) beginning
+   Child 2 (3955) beginning
+   Child 3 (3956) beginning
+   Child 4 (3957) beginning
+   Child 5 (3958) beginning
+   Child 6 (3959) beginning
+   Child 7 (3960) beginning
+   Child 8 (3961) beginning
+   Child 9 (3962) beginning
+   Child 10 (3963) beginning
+   Child 11 (3964) beginning
+   Child 12 (3965) beginning
+   Child 13 (3966) beginning
+   Child 14 (3967) beginning
+   Child 14 exiting
+
+   Child 13 exiting
+
+   Child 12 exiting
+
+   Child 11 exiting
+
+   Child 10 exiting
+
+   Child 9 exiting
+
+   Child 8 exiting
+
+   Child 7 exiting
+
+   Child 6 exiting
+
+   Child 5 exiting
+
+   Child 4 exiting
+
+   Child 3 exiting
+
+   Child 2 exiting
+
+   Child 1 exiting
+
+   Child 0 exiting
+
+
+
+
